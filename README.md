@@ -1,4 +1,4 @@
-# Casino Slot MAchine Simulator (Non-Visual Version)
+# Casino Slot Machine Simulator (Non-Visual Version)
 
 ## What's the purpose of this project?
 The main goal was to compile all javascript-logic learnings in one project only.
