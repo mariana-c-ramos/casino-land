@@ -49,7 +49,7 @@ const getLines = () => {
         const lines = prompt('Enter how many lines you want to bet on (between 1 to 3): ');
         const numberLines = parseFloat(lines);
 
-        if (isNaN(numberLines) || numberLines <= 0 || numberLines >= 3){
+        if (isNaN(numberLines) || numberLines <= 0 || numberLines > 3){
             console.log('Invalid amount of lines, try again.');
         } else {
             return numberLines;
@@ -128,7 +128,7 @@ const printResult = (rows) => {
                 rowString += " | "
             }
         }
-        //console.log(rowString)
+        console.log(rowString)
     }
 };
 
